@@ -1,34 +1,30 @@
-# Greeting Card
 
-## Project Overview
-In this project you will apply JavaScript to the DOM to create a greeting card on an HTML page.  
+# Project 1: Greeting Card
 
-## Objectives
+* Author: Braden Roth
+* Class: APCSP P.7
+* Semester: Fall 2023
 
-- [ ] Create HTML elements
-- [ ] Use JavaScript to manipulate HTML elements
-- [ ] Use variables to manage data
+## Overview
 
-## Specifications
+This Javascript website displays a Christmas themed greeting card.
 
-Create a Greeting Card on an HTML page.  Your Greeting Card should include at least 10 different HTML elements.  You must use JavaScript (only) to create and manipulate your elements in such a way that they come together to clearly resemble a picture.   Your Greeting Card should include a variety of colors (at least 5), text, an image, and music. 
+## Compiling and Using
+To run/open the website, go to where on the computer it is stored so on mine it would be finder --->  desktop --> code ---> Greeting Card ---> index.HTML
 
-## Your Tasks
+Make sure you open the Index.HTML and not any of the others.
 
-- [ ] Locate the index.html page.  Here you will create the basic elements for your page.  You must include at least 10 different elements. 
-- [ ] Locate the App.js file.  Write code to manipulate the elements on your index.html page
-- [ ] Include music with your GreetingCard.  Below is an example of how to do this, 
 
-```
-var au = new Audio("Music/AllIWantForChristmas.mp3");
-au.controls = true;
-document.body.appendChild(au);
-```
+## Discussion
 
-- [ ] Document your code thoroughly as you go with comments
-- [ ] Complete the required README using specified guidelines
+Starting out, my program was really messed up with layering and trying to get things to layer over eachother the correct way that I wanted, eventually I got help from Joey about how to layer things correctly and then I was able to do it the correct way. 
 
-## Grade your project before you submit
 
-- [ ] Before you submit your project, grade your project against the criteria below. 
-	[Rubric.md](Rubric.md)
+I tried to change the music from "All I want for Christmas Is You" to a different song that I pulled off of Youtube and used a Youtube to MP3 converter, but when I saved it to the "songs" part of the code and use it, it gave me an error code and I just decided to stick with the Mariah Carrey song. This also happened with the pictures of the Beechcraft Denali and Denali National Park. Instead of saving the picture to my computer and in the "Images" folder, I just copied the image address and refernced it in my code.
+
+Creating the snowman was fairly easy, I created the hat first because I figured it woule be the hardest to style and get the size right so I would just build the snowman around the hat. I originally wanted the snow to cover the whole screen but when I put it twice, it didn't reach the whole screen and when I did it three times, it had the page scroll down to put the snow.
+
+## Sources used
+
+- I used ChatGPT to find common bugs in the code such as typos in common words
+- I also used Joey for some ideas about how to layer things correctly 
